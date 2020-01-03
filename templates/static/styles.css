@@ -14,16 +14,26 @@ html, body { /* sets the img as the background of the body and makes it static s
 	border-radius: 10px; /* makes the corners of the container rounded */
 }
 
-.frosted-background {
-	width: 200px;
-	height: 150px; 
-	background-color: rgba(255, 255, 255, .45);  
+.frosted-background { /* gives the frosted effect to elements */
+	background-color: rgba(255, 255, 255, .90);  
 	backdrop-filter: blur(5px);
 	position: absolute;
-	right: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	/*transform: translate(-50%, -50%);*/
 	border-radius: 10px;
+}
+
+.format-frost-1 { /* modifies the format of the frost box for image 1 */
+	width: 400px;
+	height: 300px; 
+	left: 53%;
+	top: 35%;
+}
+
+.format-frost-2 { /* modifies the format of the frost box for image 2 */
+	width: 400px;
+	height: 300px; 
+	left: 20%;
+	top: 85%;
 }
 
 .cover {	/* allows image to fill area without losing pixel ratio */
@@ -44,13 +54,17 @@ html, body { /* sets the img as the background of the body and makes it static s
 	max-width: 700px;
 	padding-right: 0px;
 	padding-left: 0px;
-	margin-left: 10%;
+	margin-left: 20%;
+	margin-top: 5%;
 }
 
 .prod-img-container-2 {
-	max-width: 500px;
+	max-width: 700px;
 	padding-right: 0px;
 	padding-left: 0px;
+	margin-right: 30px;
+	margin-left: 20px
+	margin-top: 2%;
 }
 
 .prod-img-container-3 {
@@ -68,8 +82,6 @@ html, body { /* sets the img as the background of the body and makes it static s
     max-height: 100vh;
     height: auto;
 }
-
-
 
 .title { /* sets formatting of title */
 	text-align: center;
@@ -91,7 +103,6 @@ html, body { /* sets the img as the background of the body and makes it static s
 	background-color: #5F2E08;	
 	color: white;
 }
-
 
 p.padding {
 	padding-top: 20px;
