@@ -1,0 +1,57 @@
+.frosted-background { /* gives the frosted effect to elements */
+	background-color: rgba(255, 255, 255, .90);  
+	backdrop-filter: blur(5px);
+	position: absolute;
+	/*transform: translate(-50%, -50%);*/
+	border-radius: 10px;
+}
+
+.format-frost-1 { /* modifies the format of the frost box for image 1 */
+	width: 400px;
+	height: 300px; 
+	left: 53%;
+	top: 35%;
+}
+
+.format-frost-2 { /* modifies the format of the frost box for image 2 */
+	width: 400px;
+	height: 300px; 
+	left: 20%;
+	top: 85%;
+}
+
+.format-frost-3 { /* modifies the format of the frost box for image 2 */
+	width: 600px;
+	height: 200px; 
+	left: 34%;
+	top: 175%;
+}
+
+.prod-img-container-1 { /* formats img in container 1 */
+	max-width: 700px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 2%;
+}
+
+.horizontal-pos-1 { /* sets the horizontal pos of img in container 1 */
+	margin-left: -200px;
+}
+
+.prod-img-container-2 {
+	max-width: 700px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 2%;
+}
+
+.horizontal-pos-2 {
+	margin-left: 120px;
+}
+
+.prod-img-container-3 {
+	max-width: 800px;
+	padding-right: 0px;
+	padding-left: 0px; 
+	margin-top: 2%;
+}

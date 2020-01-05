@@ -1,0 +1,30 @@
+.navbar-text-color { /* sets the color and weight of the text of the navbar */
+	text-align: center;
+	color: #e6a756;
+	font-size: medium;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link { /* changes the link text color of the navbar icons */
+    color: #e6a756;
+}
+
+.navbar-light .navbar-nav { /* tries to center the navbar links inside the navbar */
+	padding-left: 40%;
+}
+
+.navbar-expand-lg { /* overrides .navbar to make rounded corners */
+	border-radius: 10px;
+}
+
+.navbar-padding { /* sets padding for the navbar so it doesn't stick to the sides */
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.navbar-color { /* sets the color of the navbar */
+	/*background-color: #5F2E08;*/
+	background-color: rgba(95, 46, 8, .90);
+	backdrop-filter: blur(5px);
+}
+

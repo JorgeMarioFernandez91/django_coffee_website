@@ -1,0 +1,8 @@
+.title { /* sets formatting of title */
+	text-align: center;
+	color: #e6a756;
+	font-size: xxx-large;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}

@@ -10,37 +10,7 @@ html, body { /* sets the img as the background of the body and makes it static s
 }
 
 .container { /* sets the color of all containers */
-	background-color: #e6a756;
 	border-radius: 10px; /* makes the corners of the container rounded */
-}
-
-.frosted-background { /* gives the frosted effect to elements */
-	background-color: rgba(255, 255, 255, .90);  
-	backdrop-filter: blur(5px);
-	position: absolute;
-	/*transform: translate(-50%, -50%);*/
-	border-radius: 10px;
-}
-
-.format-frost-1 { /* modifies the format of the frost box for image 1 */
-	width: 400px;
-	height: 300px; 
-	left: 53%;
-	top: 35%;
-}
-
-.format-frost-2 { /* modifies the format of the frost box for image 2 */
-	width: 400px;
-	height: 300px; 
-	left: 20%;
-	top: 85%;
-}
-
-.format-frost-3 { /* modifies the format of the frost box for image 2 */
-	width: 600px;
-	height: 200px; 
-	left: 34%;
-	top: 175%;
 }
 
 .cover {	/* allows image to fill area without losing pixel ratio */
@@ -57,64 +27,11 @@ html, body { /* sets the img as the background of the body and makes it static s
 	border-radius: 10px;
 }
 
-.prod-img-container-1 { /* formats img in container 1 */
-	max-width: 700px;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-top: 2%;
-}
-
-.horizontal-pos-1 { /* sets the horizontal pos of img in container 1 */
-	margin-left: -200px;
-}
-
-.prod-img-container-2 {
-	max-width: 700px;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin-top: 2%;
-}
-
-.horizontal-pos-2 {
-	margin-left: 120px;
-}
-
-.prod-img-container-3 {
-	max-width: 800px;
-	padding-right: 0px;
-	padding-left: 0px; 
-	margin-top: 2%;
-}
-
 .fit { /* makes containers that are not images the size of the main home image */
 	max-width: 900px
 }
 
-.img { /* sets the dimensions of the img */
-    max-width: 100%;
-    max-height: 100vh;
-    height: auto;
-}
 
-.title { /* sets formatting of title */
-	text-align: center;
-	color: #e6a756;
-	font-size: xxx-large;
-	font-weight: bold;
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
-
-.navbar-padding { /* sets padding for the navbar so it doesn't stick to the sides */
-	padding-right: 100px;
-	padding-left: 100px;
-}
-
-.navbar-color { /* sets the color of the navbar */
-	/*background-color: #5F2E08;*/
-	background-color: rgba(95, 46, 8, .90);
-	backdrop-filter: blur(5px);
-}
 
 .footer-color {
 	background-color: rgba(95, 46, 8, .90);
@@ -125,26 +42,6 @@ html, body { /* sets the img as the background of the body and makes it static s
 p.padding {
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-
-.navbar-text-color { /* sets the color and weight of the text of the navbar */
-	text-align: center;
-	color: #e6a756;
-	font-size: medium;
-	font-weight: bold;
-}
-
-.navbar-light .navbar-nav .nav-link { /* changes the link text color of the navbar icons */
-    color: #e6a756;
-}
-
-.navbar-light .navbar-nav { /* tries to center the navbar links inside the navbar */
-	padding-left: 40%;
-
-}
-
-.navbar-expand-lg { /* overrides .navbar to make rounded corners */
-	border-radius: 10px;
 }
 
 .active a{ /* sets the color of the active link in the navbar */
