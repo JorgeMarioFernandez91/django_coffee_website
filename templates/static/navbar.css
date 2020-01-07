@@ -13,15 +13,6 @@
 	padding-left: 40%;
 }
 
-.navbar-expand-lg { /* overrides .navbar to make rounded corners */
-	border-radius: 10px;
-}
-
-.navbar-padding { /* sets padding for the navbar so it doesn't stick to the sides */
-	padding-right: 100px;
-	padding-left: 100px;
-}
-
 .navbar-color { /* sets the color of the navbar */
 	/*background-color: #5F2E08;*/
 	background-color: rgba(95, 46, 8, .90);

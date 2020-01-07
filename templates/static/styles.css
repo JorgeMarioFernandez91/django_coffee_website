@@ -31,8 +31,6 @@ html, body { /* sets the img as the background of the body and makes it static s
 	max-width: 900px
 }
 
-
-
 .footer-color {
 	background-color: rgba(95, 46, 8, .90);
 	backdrop-filter: blur(5px);	
@@ -52,4 +50,3 @@ p.padding {
 	background-color: #7e4a35;
 	color: white;
 }
-

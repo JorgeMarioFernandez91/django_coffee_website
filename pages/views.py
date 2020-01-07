@@ -16,8 +16,8 @@ def products_view(request, *args, **kwargs): # contains product info
 def contact_view(request, *args, **kwargs): # contains contact info
 	return render(request, "contact.html", {})
 
-def mission_view(request, *args, **kwargs): # contains mission statement
-	return render(request, "mission.html", {})
+def order_view(request, *args, **kwargs): # contains mission statement
+	return render(request, "order.html", {})
 
 
 
